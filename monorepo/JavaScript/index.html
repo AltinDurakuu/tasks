@@ -6,7 +6,35 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="">
+        <div id="groups">
+            <div class="group-form">
+                <label for="internship">Internship</label>
+                <input type="checkbox" name="internship" id="internship" value="Internship">
+            </div>
+            <div class="group-form">
+                <label for="pabau">Pabau</label>
+                <input type="checkbox" id="pabau" name="pabau" value="Pabau">
+            </div>
+            <div class="group-form">
+                <label for="employment">Employment</label>
+                <input type="checkbox" id="employment" name="employment" value="Employment">
+            </div>
+            <div class="group-form">
+                <label for="career">Career</label>
+                <input type="checkbox" id="career" name="career" value="Career">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="shuffle-btn">Shuffle values</button>
+            <button id="change-btn">Change Values</button>
+            <button id="show-selected-btn">Show selected values</button>
+        </div>
+        <div>
+            <h4>Selected Checkboxes</h4>
+            <p id="selected-checkboxes"></p>
+        </div>
+    </form>
     <script src="index.js"></script>
 </body>
 </html>
