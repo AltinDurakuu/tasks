@@ -1,0 +1,13 @@
+header{
+    text-align: center;
+    border-bottom: 1px solid #e1e1e1;
+}
+header h1{
+    font-size: 22px;
+    line-height: 1.1em;
+    margin: 0;
+}
+header p{
+    line-height: 1.1em;
+    margin: 0;
+}

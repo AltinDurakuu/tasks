@@ -53,7 +53,7 @@ function showSelectedValues(){
     pForSelcted.innerHTML = "";
     for (let i=0; i<checkboxes.length; i++) {
         if(checkboxes[i].checked){
-            checkboxValue = checkboxes[i].value;
+            let checkboxValue = checkboxes[i].value;
             pForSelcted.innerHTML += pForSelcted.innerHTML == "" ? checkboxValue : ", " + checkboxValue;
         }
     }

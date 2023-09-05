@@ -1,0 +1,8 @@
+main{
+    background-color: #f3f3f3;
+    padding: 80px 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
